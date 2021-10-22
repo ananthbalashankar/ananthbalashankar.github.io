@@ -55,33 +55,33 @@
 	<h2>Research Interests</h2>
 	I am interested in building domain faithful ML models through constrained optimization, data augmentation and causal feature selection, for real world applications. 
 	Broadly, my work has had demonstrable <i>business and research impact across 5 domains</i>:
-	<ul>
+	<ol>
 		<li><b>Famine Forecasting</b><br>
 		Forecasting famine is critical for the mobilization of aid to millions of people, but hard to solve due to data scarcity in fragile countries. 
-		By building a news-based causal-aware forecasting framework that extracts causal features from 11.2 million news articles across 2 decades in 15 fragile countries [4], we have improved forecasting accuracy by 32\% compared to state-of-the-art predictive models. 
-		This <a href="#famine">paper</a> is accepted at IC2S2 '21, the premiere computational social science conference, and in review at a Science sub-journal. 
+		By building a news-based causal-aware forecasting framework that extracts causal features from 11.2 million news articles across 2 decades in 15 fragile countries, we have improved forecasting accuracy by 32% compared to state-of-the-art predictive models. 
+		This <a href="#famine">paper</a> is accepted at IC2S2 '21, the premiere computational social science conference, and <a href="#famine2">under review</a> at a Science sub-journal. 
 		The tool will be used by the World Bank Data Science group for aid allocation on food security. 
 		Based on this research, a few co-authors have founded a socio-economic inference start-up Velai, Inc.</li><br>
 		<li><b>Toxic Comments Detection</b><br>
 		Automated detection of online toxic comments improves the quality of interaction in social media.
 		However, the variations in context of comments make it hard to protect specific demographic groups from disparate impact. 
 		By explicitly modeling such nuances through counterfactual data augmentation, we improved the accuracy of detecting toxicity by 6%
-		Through this publication at EMNLP '21, a premiere NLP conference, I have fostered deep engagements with Google's Responsible ML team.
-		I have also deployed ML models that optimize business objectives like diversity at Google Play.</li><br>
+		Through this <a href="#robust1">publication</a> at EMNLP '21, a premiere NLP conference, I have fostered deep engagements with Google's Responsible ML team.
+		I have also <a href="#play">deployed</a> ML models that optimize business objectives like diversity at Google Play.</li><br>
 		<li><b>Causal Question Answering</b><br>
 		Causality based question answering lies at the core of customer support tools like chatbots. 
 		Prior ML models fail to capture the directed nature of causality, for example rain causes traffic delay, and not vice versa. 
-		By learning asymmetric causal embeddings faithful to causal graphs, we improved accuracy on Yahoo! Answers by 21% in this paper at ACL '21, a premiere NLP conference.</li><br>
+		By learning asymmetric causal embeddings faithful to causal graphs, we improved accuracy on Yahoo! Answers by 21% in this <a href="#faithful">paper</a> at ACL '21, a premiere NLP conference.</li><br>
 		<li><b>Health Recommendations</b><br>
 		Trustworthy ML models in health recommendations need to be faithful to medical concepts over unseen patient data, while traditional ML models focus only on optimizing accuracy over the observed but limited test data.
-		By incorporating trust through doctor specified mapping rules between diagnoses and medications through data augmentation, we have improved accuracy of state-of-the-art end-to-end neural models by 12% in this publication at WSDM '21, the premiere data mining conference.</li><br>
+		By incorporating trust through doctor specified mapping rules between diagnoses and medications through data augmentation, we have improved accuracy of state-of-the-art end-to-end neural models by 12% in this <a href="#concordance">publication</a> at WSDM '21, the premiere data mining conference.</li><br>
 		<li><b>Privacy Enforcement</b><br>
 		Corporate privacy compliance policies are legally prescriptive, but not directly enforceable in computer systems. 
-		By using the theory of contextual integrity through post-processing mappings, we have improved the accuracy of BERT-based deep learning models by 6% to extract privacy parameters for SQL-based enforcement in this paper at WWW' 19, the premiere web research conference.</li>
-	</ul>
+		By using the theory of contextual integrity through post-processing mappings, we have improved the accuracy of BERT-based deep learning models by 6% to extract privacy parameters for SQL-based enforcement in this <a href="privacy1">paper</a> at WWW' 19, the premiere web research conference.</li>
+	</ol>
 	
 	<h2> Teaching Experience </h2>
-	<ul>
+	<ol>
 	<li><b>Big Data and ML Systems</b> (CSCI-GA. 3033-016, Spring 2019 - New York University)
 	Taught a class of over 100+ MS in Computer Science and Computer Engineering, Entrepreneurship and Innovation (MS-CEI) students, and 
 	designed labs on Spark distributed ML computing platform, PageRank algorithm, deep learning neural network models for text processing,
@@ -96,11 +96,10 @@
 	
 	<li><b>Programming and Data Structures</b> (CS 11001, Fall 2013, IIT Kharagpur)
 	Designed and conducted lab sessions for 150+ undergraduate CS students for introductory topics in C programming</li>
-	</ul>
+	</ol>
 	<h2>Publications</h2>
-	<br>
-	<h3>Working Journal Papers</h3>
 	<ol>
+	<h3>Working Journal Papers</h3>
 	<li id="famine"><b><u>Fine-grained prediction of food crisis using news</u></b> <br>
 		Ananth Balashankar, Samuel Fraiberger, Lakshmi Subramanian<br>
 		<i>Under Review at Science Advances</i><a href="Famine_Paper_Draft 19.pdf">[pdf]</a></li>
@@ -116,46 +115,46 @@
 		Ananth Balashankar, Srikanth Jagabathula, Lakshminarayanan Subramanian.<br> Under Preparation.</li>
 	<br>
 	<h3>Refereed Conference Papers</h3>
-	<li><b><u>Can We Improve Model Robustness through Secondary Attribute Counterfactuals?</u></b> <br>
+	<li id="robust1"><b><u>Can We Improve Model Robustness through Secondary Attribute Counterfactuals?</u></b> <br>
 		Ananth Balashankar, Xuezhi Wang, Ben Packer, Nithum Thain, Ed Chi and Alex Beutel<br>
 		<i>Conference on Empirical Methods in Natural Language Processing (EMNLP) ‘21 (Main Conference Acceptance Rate: 22.4%) </i><a href="Context_Aware_Counterfactual_Robustness (24).pdf">[pdf]</a></li>
 	<br>
-	<li><b><u>Quantifying Risks of Food Insecurity by Analyzing News Media</u></b> <br>
+	<li id="famine2"><b><u>Quantifying Risks of Food Insecurity by Analyzing News Media</u></b> <br>
 		Ananth Balashankar, Lakshminarayanan Subramanian, Samuel Fraiberger <br> 
 		<i>International Conference on Computational Social Science (IC2S2)</i> 2020.
 		<i> Contributed Talk at INFORMS 2021, World Bank Conference on AI in economic development, 2018.</i> </li>
 	<br>
-	<li><b><u>Learning Faithful Representations of Causal Graphs</u></b> <br>
+	<li id="faithful"><b><u>Learning Faithful Representations of Causal Graphs</u></b> <br>
 		Ananth Balashankar, Lakshminarayanan Subramanian<br>
 		<i>Conference of Association of Computational Linguistics (ACL) 2021 (Oral Paper Acceptance Rate: <6%) </i><a href="https://aclanthology.org/2021.acl-long.69/">[pdf]</a></li>
 	<br>
-	<li><b><u>Enhancing Neural Recommender Models through Domain-Specific Concordance</u></b> <br>
+	<li id="concordance"><b><u>Enhancing Neural Recommender Models through Domain-Specific Concordance</u></b> <br>
 		Ananth Balashankar, Alex Beutel, Lakshminarayanan Subramanian<br>
 		<i>International Conference on Web Search and Data Mining (WSDM) 2021 (Acceptance Rate: 18.6%) </i> <a href="https://dl.acm.org/doi/10.1145/3437963.3441784">[pdf]</a></li>
 	<br>
-	<li><b><u>Identifying Predictive Causal Factors from News Streams</u></b> <br>
+	<li id="pcg1"><b><u>Identifying Predictive Causal Factors from News Streams</u></b> <br>
 		Ananth Balashankar, Sunandan Chakraborty, Samuel Fraiberger, Lakshminarayanan Subramanian<br>
 		<i>Conference on Empirical Methods in Natural Language Processing (EMNLP) (Oral Paper Acceptance Rate: <7%)</i> 2019 <a href="https://drive.google.com/file/d/1ThqD6B1RoZPBKdLiZNQWSxgIC23afrJ6/view?usp=sharing">[pdf]</a></li>
 	<br>
-	<li><b><u>VACCINE: Using Contextual Integrity for Data Leakage Detection</u> </b><br>
+	<li id="privacy1"><b><u>VACCINE: Using Contextual Integrity for Data Leakage Detection</u> </b><br>
 		Yan Shvartzshnaider, Zvonimir Pavlinovic, Ananth Balashankar, Thomas Wies, Lakshminarayanan Subramanian, Helen Nissenbaum and Prateek Mittal<br>
 		<i> The Web Conference (WWW)</i> 2019 (Acceptance Rate: 18%). <a href="https://cs.nyu.edu/wies/publ/vaccine.pdf">[pdf]</a> </li>
 	<br>
-	<li><b><u>Reconstructing the MERS Disease Outbreak from News</u></b> <br>
+	<li id="health"><b><u>Reconstructing the MERS Disease Outbreak from News</u></b> <br>
 		Ananth Balashankar, Aashish Dugar, Lakshmi Subramanian, Samuel Fraiberger<br>
 		<i> ACM Computing and Sustainable Societies (COMPASS)</i> 2019. <a href="https://dl.acm.org/citation.cfm?id=3332498">[pdf] </a> </li>
 	<br>
 	<h3> Working Refereed Conference Papers </h3>
-	<li><b><u>Beyond The Text: Analysis of Privacy Statements through Syntactic and Semantic Role Labeling</u></b> <br>
+	<li id="privacy2"><b><u>Beyond The Text: Analysis of Privacy Statements through Syntactic and Semantic Role Labeling</u></b> <br>
 		Yan Shvartzshnaider, Ananth Balashankar, Vikas Patidar, Thomas Wies, Lakshminarayanan Subramanian. Under review at The Web Conference (WWW) '22.<br>
 		<a href="https://arxiv.org/abs/2010.00678">[arxiv]</a></li>
 	<br>
-	<li><b><u>Improving Robustness through Pairwise Generative Counterfactual Data Augmentation/u></b> <br>
+	<li id="robust2"><b><u>Improving Robustness through Pairwise Generative Counterfactual Data Augmentation/u></b> <br>
 		Ananth Balashankar, Xuezhi Wang, Yao Qin, Ben Packer, Nithum Thain, Ed Chi and Alex Beutel. Under review at The conference of Association for the Advancement of Artificial Intelligence (AAAI) '22.<br>
 		<a href="generative_model.pdf">[pdf]</a></li>
 	<br>
 	<h3> Refereed Workshop Papers </h3>
-	<li><b><u>Pareto Efficient Fairness for Skewed Subgroup Data</u></b> <br>
+	<li id="fair1"><b><u>Pareto Efficient Fairness for Skewed Subgroup Data</u></b> <br>
 		Ananth Balashankar, Alyssa Lees, Chris Welty, Lakshmi Subramanian <br>
 		<i> ICML workshop on AI for Social Good</i> 2019. [<a href="https://aiforsocialgood.github.io/icml2019/accepted/track1/pdfs/24_aisg_icml2019.pdf">Best Paper!</a>]</li>
 	<br>
@@ -176,9 +175,9 @@
 		<i> ICML '18 Workshop on Machine Learning for Causal Inference, Counterfactual Prediction, and Autonomous Action (CausalML)</i> <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxmYWltMTh3c2NhdXNhbG1sfGd4OjUwNmI1ZTUwNzgzMTk5OWQ">[pdf]</a></li>
 	<br>
 	<h3>Other Papers</h3>
-	<li><b><u>Catalyzing Inclusive Agricultural Transformation in Africa</u></b> <br>
+	<li id="africa"><b><u>Catalyzing Inclusive Agricultural Transformation in Africa</u></b> <br>
 	Joint work with World Bank collaborators - Samuel Fraiberger, Marelize Görgens, Clara Ivanescu, Andrew Longosz, Shaffiq Somani, Tushar Malik, Theo Hawkins; 
-	Lakshmi Subramanian, Eric Deregt (NYU) and David Wilson (BMGF)<br>
+	Lakshmi Subramanian, Eric Deregt (NYU) and David Wilson (Bill and Melinda Gates Foundation)<br>
 	<i> World Bank Technical Report</i> 2018. <a href="https://thedocs.worldbank.org/en/doc/163671541431652090-0090022018/original/AgricltureTransformationinAfrica.pdf">[pdf] </a> </li>
 	<br>
 	<li><b><u>Predicting Angiographic Disease Status: Where to draw the line between demographically decoupled and jointly trained models?/u></b> <br>
@@ -195,7 +194,7 @@
 		Vishnu Navda, Ramachandran Ramjee, Sahil Suneja, Ananth Balashankar<br>
 		<i> US Patent </i> <a href="https://patents.google.com/patent/US8843169">8843169</a> </li>
 	<br>
-	<li><b><u>App Discovery with Google Play: Personalized Recommendations with Related Apps</u></b> <br>
+	<li id="play"><b><u>App Discovery with Google Play: Personalized Recommendations with Related Apps</u></b> <br>
 		Ananth Balashankar, Levent Koc, Norberto Guimaraes<br>
 		<i> Google AI Blog</i> 2016. <a href="https://ai.googleblog.com/2016/12/app-discovery-with-google-play-part-2.html">[blog]</a> </li> <br>
 	
